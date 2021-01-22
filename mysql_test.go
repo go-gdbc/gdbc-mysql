@@ -33,6 +33,12 @@ func TestMySQLDataSourceNameAdapter_GetDataSourceNameWithoutUser(t *testing.T) {
 	assert.Equal(t, dsn, DefaultUsername+"@tcp(localhost:3000)/testdb?charset=utf8mb4")
 }
 
+func TestMySQLDataSourceNameAdapter_GetDataSourceNameWithoutArguments(t *testing.T) {
+	dsn, err := getDSN(t, "gdbc:mysql://localhost:3000/testdb")
+	assert.Nil(t, err)
+	assert.Equal(t, dsn, DefaultUsername+"@tcp(localhost:3000)/testdb")
+}
+
 func TestMySQLDataSourceNameAdapter_GetDataSourceNameWithoutUserAndPort(t *testing.T) {
 	dsn, err := getDSN(t, "gdbc:mysql://localhost/testdb?charset=utf8mb4")
 	assert.Nil(t, err)
