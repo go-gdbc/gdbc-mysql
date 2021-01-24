@@ -1,9 +1,9 @@
 # gdbc-mysql
 GDBC Mysql Driver - It is based on [github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-gdbc/gdbc-postgresql)](https://goreportcard.com/report/github.com/go-gdbc/gdbc-postgresql)
-[![codecov](https://codecov.io/gh/go-gdbc/gdbc-postgresql/branch/main/graph/badge.svg?token=AsVeTnBKU1)](https://codecov.io/gh/go-gdbc/gdbc-postgresql)
-[![Build Status](https://travis-ci.com/go-gdbc/gdbc-postgresql.svg?branch=main)](https://travis-ci.com/go-gdbc/gdbc-postgresql)
+[![Go Report Card](https://goreportcard.com/badge/github.com/go-gdbc/gdbc-mysql)](https://goreportcard.com/report/github.com/go-gdbc/gdbc-mysql)
+[![codecov](https://codecov.io/gh/go-gdbc/gdbc-mysql/branch/main/graph/badge.svg?token=7UNHBOILSV)](https://codecov.io/gh/go-gdbc/gdbc-mysql)
+[![Build Status](https://travis-ci.com/go-gdbc/gdbc-mysql.svg?branch=main)](https://travis-ci.com/go-gdbc/gdbc-mysql)
 
 # Usage
 ```go
