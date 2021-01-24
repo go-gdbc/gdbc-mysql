@@ -19,7 +19,7 @@ if err != nil {
 }
 ```
 
-Postgresql GDBC URL takes one of the following forms:
+MySQL GDBC URL takes one of the following forms:
 
 ```
 gdbc:mysql://host:port/database-name?arg1=value1
