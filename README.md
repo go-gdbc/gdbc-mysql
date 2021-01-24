@@ -30,7 +30,8 @@ gdbc:mysql://username:password@host:port/database-name?arg1=value1
 gdbc:mysql:/database-name?socket=/tmp/mysql.sock&args1=value1
 ```
 
-Using Socket
+Using Socket:
+
 You have to pass the argument **socket**, the argument does not belong to the driver.
 ```
 gdbc:mysql:/database-name?socket=/tmp/mysql.sock&args1=value1
