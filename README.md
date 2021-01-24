@@ -27,7 +27,6 @@ gdbc:mysql://host/database-name?arg1=value1
 gdbc:mysql:database-name?arg1=value1
 gdbc:mysql:?arg1=value1
 gdbc:mysql://username:password@host:port/database-name?arg1=value1
-gdbc:mysql:/database-name?socket=/tmp/mysql.sock&args1=value1
 ```
 
 Using Socket:
